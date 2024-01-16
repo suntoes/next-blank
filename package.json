@@ -1,0 +1,42 @@
+{
+    "author": {
+        "email": "mar.suntoes@gmail.com",
+        "name": "Mar Santos"
+    },
+    "name": "next-blank",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 8006 --turbo",
+        "dev-emulate": "EMULATE=true && next dev -p 8006 --turbo",
+        "start": "next start -p 8006",
+        "build": "next build",
+        "prettier": "prettier --write .",
+        "lint": "next lint",
+        "export": "ts-node scripts/exports.ts -b lib/styles -n components/reusable lib"
+    },
+    "dependencies": {
+        "classnames": "^2.3.2",
+        "framer-motion": "^10.16.4",
+        "next": "13.4.11",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-icons": "^4.10.1"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.6",
+        "@types/node": "18.11.3",
+        "@types/react": "18.0.21",
+        "@types/react-dom": "18.0.6",
+        "autoprefixer": "^10.4.14",
+        "eslint": "8.26.0",
+        "eslint-config-next": "12.3.1",
+        "eslint-plugin-unused-imports": "^3.0.0",
+        "postcss": "^8.4.27",
+        "prettier": "^2.7.1",
+        "prettier-plugin-tailwindcss": "^0.4.1",
+        "tailwindcss": "^3.3.3",
+        "ts-node": "^10.9.2",
+        "typescript": "4.8.4"
+    }
+}
